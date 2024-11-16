@@ -20,7 +20,7 @@ void plateNum()
 
     srand(static_cast<unsigned int >(time(0)));
 
-    //generate print random 3 numbers
+    //generate print random 3 letter
 
     cout << "Plate number output: ";
 
@@ -32,6 +32,7 @@ void plateNum()
 
         cout << " ";
 
+	// generate random 3 number
        
     for (int i = 0; i < 3; ++i)
     {
